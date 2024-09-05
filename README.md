@@ -15,7 +15,7 @@
 我的代码、数据集和运行结果放在kaggle上面，可以复制后直接运行notebook，地址： [Sentiment Analysis of IMDB Movie Reviews (90%）](https://www.kaggle.com/code/chenxucool/sentiment-analysis-of-imdb-movie-reviews-90)
 ## 技术栈
 - 编程语言：Python 
-- 框架和库：Scikit-learn, NLTK, TextBlob，BeautifulSoup，WordCloud，joblib
+- 框架和库：Scikit-learn, NLTK, TextBlob，TF-IDF，Bag of Words，joblib
 - 模型：LR（逻辑回归）、LSVM（线性支持向量机）和MNB（多项式朴素贝叶斯）
 - 数据集：imdb-dataset-of-50k-movie-reviews
 
@@ -35,48 +35,3 @@
 - 模型集成：结合多个分类器提升性能
 - 超参数调优：通过网格搜索找到最佳模型参数
 - 实现Web接口，提供在线情感分析服务
-
-
----
-
-# Project Introduction: IMDB Movie Review Sentiment Analysis
-
-## Overview
-This project focuses on sentiment analysis (positive or negative) of movie reviews, utilizing the IMDB 50K dataset to build three traditional machine learning models, achieving a final prediction accuracy of 90%.
-
-## My Main Contributions and Achievements
-- Completed the entire NLP pipeline, including data cleaning, text preprocessing (cleaning, tokenization, stopword removal, stemming, etc.), model training, and evaluation.
-- Experimented with replacing NLTK with spaCy to accelerate stemming and stopword removal.
-- Conducted comparative analysis of the evaluation results of the three models.
-- Gained familiarity with Kaggle, various frameworks, models, and their underlying principles.
-
-## Highlights
-- Reduced the time for stemming and stopword removal by half using parallel computing.
-- Optimized the parameters of TFIDF to improve the accuracy of LR and MNB from 75% to 90%, and MNB from 50% to 90%.
-
-## Usage Instructions
-My code, dataset, and results are available on Kaggle, where you can copy and directly run the notebook. Link: [Sentiment Analysis of IMDB Movie Reviews (90%)](https://www.kaggle.com/code/chenxucool/sentiment-analysis-of-imdb-movie-reviews-90).
-
-## Tech Stack
-- **Programming Language**: Python
-- **Frameworks & Libraries**: Scikit-learn, NLTK, TextBlob, BeautifulSoup, WordCloud, joblib
-- **Models**: LR (Logistic Regression), LSVM (Linear Support Vector Machine), and MNB (Multinomial Naive Bayes)
-- **Dataset**: imdb-dataset-of-50k-movie-reviews
-
-## Model Performance
-I tested the performance of three models on the IMDB dataset, with the results as follows:
-
-| Model   | Accuracy  |
-|---------|-----------|
-| LR      | 90%       |
-| LSVM    | 89.5%     |
-| MNB     | 89%       |
-
-## Future Work
-- Add multilingual support to expand sentiment analysis to reviews in other languages.
-- Explore more advanced deep learning models such as BERT and GPT.
-- Model ensemble: Combine multiple classifiers to improve performance.
-- Hyperparameter tuning: Use grid search to find the best model parameters.
-- Implement a web interface to provide online sentiment analysis services.
-
-
