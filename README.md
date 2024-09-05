@@ -21,7 +21,7 @@
 
 ## 模型效果
 
-我们在 IMDB 数据集上测试了两种模型的表现，结果如下：
+我在 IMDB 数据集上测试了三种模型的表现，结果如下：
 
 | 模型        | 准确率  |
 |-------------|---------|
@@ -64,7 +64,7 @@ My code, dataset, and results are available on Kaggle, where you can copy and di
 - **Dataset**: imdb-dataset-of-50k-movie-reviews
 
 ## Model Performance
-We tested the performance of three models on the IMDB dataset, with the results as follows:
+I tested the performance of three models on the IMDB dataset, with the results as follows:
 
 | Model   | Accuracy  |
 |---------|-----------|
