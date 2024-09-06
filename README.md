@@ -17,7 +17,7 @@
 - 编程语言：Python 
 - 框架和库：Scikit-learn, NLTK, TextBlob，TF-IDF，Bag of Words，joblib（并行计算）
 - 算法模型：逻辑回归、朴素贝叶斯、支持向量机（SVM）
-- 模型评估：准确率、精确率、召回率、F1值
+- 模型评估：准确率、精确率、召回率、F1值、混淆矩阵
 - 数据集：imdb-dataset-of-50k-movie-reviews
 
 ## 模型效果
